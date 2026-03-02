@@ -1,0 +1,145 @@
+<!-- • Home — A welcome section introducing yourself 
+• About — A short biography or personal background 
+• Education — Your academic history in a structured table 
+• Hobbies — A list of your hobbies and interests 
+• Contact — A simple contact form  -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Website - Abah Cynthia Ojoma</title>
+  </head>
+
+  <body>
+    <!-- sidebar navigation -->
+    <aside>
+      <h1>Abah Cynthia Ojoma</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- main content sections-->
+    <!-- section 1: Home -->
+    <section id="home">
+      <h1>Welcome to Cynthie's Profile</h1>
+
+      <img src="./profile.JPG" alt="Cynthia's Picture" width="150" />
+
+      <p>
+        Hi my name is <strong>Cynthia Abah</strong> from Enugu State, Nigeria. I
+        am a 500 Level student of University of Nigeria, Enugu Campus and I am
+        also currently learing fullstack web development at Turing Tech LLC
+      </p>
+    </section>
+
+    <!-- section 1: About -->
+    <section id="about">
+      <h2>About Cynthia</h2>
+
+      <p>
+        My name is Cynthia Ojoma Abah, an Idoma girl from Igbo-Eze North, Enugu
+        State, Nigeria. I am a 22-year-old 500 level student of Nursing Sciences
+        at the University of Nigeria, Enugu Campus. Alongside my studies, I am
+        also a student at ENSG under Turing Tech LLC, studying
+        <strong>web development and AI fundamentals.</strong>
+      </p>
+
+      <p>
+        Alongside my studies, I have worked on and built
+        <em>meaningful digital skills</em> in technology over the years. I have
+        interest in areas like Artificial Intelligence, Maching Learning and
+        Data Analysis
+      </p>
+
+      <h3>Personal Facts</h3>
+      <ul>
+        <li>I am balancing a medical degree with pursuing a career in tech.</li>
+        <li>I am left handed.</li>
+        <li>I love reading books.</li>
+      </ul>
+    </section>
+
+    <!-- section 1: Education -->
+    <section id="education">
+      <h2>Educational History</h2>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>School Name</th>
+            <th>Year</th>
+            <th>Qualification</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Hillcrest Nursery and Primary School, Nsukka Enugu State</td>
+            <td>2006 - 2014</td>
+            <td>First School Leaving Certificate</td>
+          </tr>
+
+          <tr>
+            <td>Holy Rosary College, Uwani Enugu State</td>
+            <td>2014 - 2020</td>
+            <td>WAEC & NECO Certificate</td>
+          </tr>
+
+          <tr>
+            <td>University of Nigeria Enugu Campus</td>
+            <td>2021 - till date</td>
+            <td>BNSC, RN, RM</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- section 1: Hobbies -->
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <p>
+        I am someone that deeply enjoys arts & crafts and I love to pick up
+        hobbies at random. There are a lot of things that I enjoy to do with my
+        few time but then here is a list of the hobbies that have stuck with me
+        the most
+      </p>
+      <ul>
+        <li>Reading</li>
+        <li>Crotcheting</li>
+        <li>Writing</li>
+        <li>Watching Movies</li>
+        <li>Dancing</li>
+      </ul>
+    </section>
+
+    <!-- section 1: Contact -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="">
+        <label for="name">Full Name: </label>
+        <input type="text" name="name" id="name" placeholder="Your Full name" />
+        <br />
+        <label for="email">Email Address: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="your@email.com"
+        />
+        <br />
+        <label for="message">Message: </label>
+        <textarea name="message" id="message" rows="5"></textarea>
+        <br />
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </body>
+</html>
